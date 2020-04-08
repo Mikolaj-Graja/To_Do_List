@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        header {
+            text-align: center;
+            font-size: larger;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        body {
+            font-family: Verdana, Tahoma, sans-serif;
+        }
+        .divInput {
+            position: relative;
+            font-size: 40px;
+            /* left: 50%; */
+            /* transform: translate(-50%, -50%); */
+            text-align: center;
+        }               
+        input {
+            position: relative;
+            font-size: xx-large;
+            border: 2px solid black;
+            top: 30px;
+        }
+        ul {
+            position: relative;
+            top: 30px;
+            text-align: center;
+            list-style: none;
+            font-size: 30px;
+        }
+        form{
+            /* max-width: 80%; */
+            position: relative;
+            transform: translate(-50%, -50%);
+            top: 15px;
+            left: 50%;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Lista zadań do wykonania</h1>
+    </header>
+    <form>
+        <div class="divInput">
+            <input type="text" class="txt">
+            <input type="button" value="Dodaj" id="addBtn">
+        </div>
+    </form>
+    <ul>
+        <hr>
+
+    </ul>
+    <script src="main.js"></script>
+</body>
+</html>
