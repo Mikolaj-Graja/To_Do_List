@@ -1,2 +1,2 @@
 # To_Do_List
-Very basic project with options to add and remove tasks
+Basic procedural project with options to add tasks, remove or mark them as done.
